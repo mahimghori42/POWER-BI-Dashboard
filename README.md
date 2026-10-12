@@ -58,27 +58,9 @@ All pages share the same slicers: fiscal year, region / market, customer, produc
 
 Power BI Desktop · DAX · Power Query (M) · MySQL · Excel
 
-## How to view this project
-
-The full `.pbix` is over 270 MB and connects to a local MySQL server and a local Excel file, so it can't be hosted on GitHub or refreshed on another machine. Instead this repo contains:
-
-| File | Purpose |
-|---|---|
-| `screenshots/` | Images of each report page |
-| `AtliQ_Dashboard.pdf` | PDF export of the report *(add if you have it)* |
-| `POWER_BI_DASHBOARD_AtliQ_bit.pbit` | Power BI template with the full model, measures and report layout, but **no data** |
-
-**Opening the `.pbit`:** open it in Power BI Desktop to inspect the data model, relationships, DAX and Power Query steps. It will prompt for data-source details. Without access to the original MySQL databases and Excel file, the refresh will fail, but the model and report design can still be explored.
-
-## What I'd improve next
-
-- Move the Excel operating-expense inputs into the database.
-- Add incremental refresh for the large fact tables.
-- Add row-level security by region.
-- Add drill-through pages for individual customers.
 
 ## Author
 
 MAHIM A G
-https://www.linkedin.com/in/mahim-ghori-00b241262/
+https://www.linkedin.com/in/mahim-ghori-00b241262/ 
 mahimghori42@gmail.com
