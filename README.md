@@ -59,8 +59,4 @@ All pages share the same slicers: fiscal year, region / market, customer, produc
 Power BI Desktop · DAX · Power Query (M) · MySQL · Excel
 
 
-## Author
 
-MAHIM A G
-https://www.linkedin.com/in/mahim-ghori-00b241262/ 
-mahimghori42@gmail.com
